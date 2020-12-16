@@ -25,7 +25,7 @@ script:
 before_install:
   - sudo apt-get -qq update
   - sudo apt-get install -y libdaemon-dev avahi-daemon libavahi-client-dev 
-  - sudo apt-get install -y libpolarssl-dev libpolarssl-dev
+  - sudo apt-get install -y libpolarssl-dev
   
 addons:
   apt:
@@ -34,6 +34,7 @@ addons:
     - libsoxr-dev
     - libpopt-dev
     - libssl-dev
+    - libpolarssl-dev
     - libconfig-dev
     - xmltoman
     - libao-dev
