@@ -3,8 +3,8 @@ arch:
  - amd64
  - ppc64le
 sudo: required
-#dist: trusty
-dist: xenial
+dist: trusty
+
 
 env:
   matrix:
@@ -24,6 +24,7 @@ script:
 
 before_install:
   - sudo apt-get -qq update
+  - sudo apt-get libpolarssl-dev
   - sudo apt-get install -y libdaemon-dev avahi-daemon libavahi-client-dev
   
 addons:
