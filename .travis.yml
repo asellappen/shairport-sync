@@ -34,7 +34,6 @@ addons:
     - libsoxr-dev
     - libpopt-dev
     - libssl-dev
-    - libpolarssl-dev
     - libconfig-dev
     - xmltoman
     - libao-dev
